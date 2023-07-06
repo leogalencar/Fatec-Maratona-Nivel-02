@@ -15,10 +15,7 @@ int main() {
             {
                 for (int k = i; k < number - i; k++)
                 {
-                    if ((j == i || j == number - (i + 1)) || (k == i || k == number - (i + 1)))
-                    {
-                        array[j][k] = i + 1;
-                    }
+                    array[j][k] = i + 1;
                 }
             }
         }
